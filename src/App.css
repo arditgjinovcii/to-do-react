@@ -1,0 +1,65 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin:0 auto;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block:0.5rem;
+    font-size:1.3rem;
+    font-weight: 600;
+}
+
+.group input,
+.group input:focus {
+    background: transparent;
+    border:1px solid green;
+    height:2rem;
+    width:55%;
+    padding:5px;
+}
+
+.btn {
+    background: transparent;
+    border:1px solid black;
+    height:2rem;
+    padding:5px;
+    color:blue;
+    font-weight: 600;
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style-type: none;
+    text-transform: capitalize;
+    width:400px;
+    margin:0 auto;
+    margin-top:3rem;
+    color:blue;
+    font-weight:600;
+}
+
+.list .list-item {
+    background-color: transparent;
+    width:100%;
+    border:1px solid green;
+    border-bottom:none;
+    padding:0.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-align: center;
+    margin-block:1rem;
+}
+.list .list-item:last-child {
+    border-bottom:1px solid green;
+}
